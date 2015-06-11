@@ -1,0 +1,16 @@
+Usage: module-generator [options] [name]
+
+Options:
+
+  name                The name of the module to generate. Defaults to the
+                      name of the parent directory
+
+  -h, --help          Show usage
+
+  -v, --version       Show version number
+
+  -u, --user [user]   Specify the user or organization that Github will
+                      point to. Overrides the user settings in your npm
+                      config, but maintains it for the author name and url
+                      fields. This value will also be used within all
+                      Github links and the LICENSE file.
