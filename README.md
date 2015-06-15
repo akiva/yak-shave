@@ -1,4 +1,4 @@
-# module-init 
+# yak-shave 
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
@@ -11,7 +11,7 @@ Originally forked from the good work of [hughsk][1] and [mattdesl][2].
 Install easily using npm:
 
 ```bash
-npm install -g @akiva/module-init
+npm install -g yak-shave
 ```
 
 ## Getting started
@@ -30,12 +30,12 @@ npm config set init.author.url "http://your-site.com/"
 
 There are two ways to create a new module using this generator. First, 
 you can create a directory with the same name as the module you would
-like to generate, enter it, and issue the `module-init` command:
+like to generate, enter it, and issue the `yak-shave` command:
 
 ```bash
 mkdir some-module
 cd some-module
-module-init
+yak-shave
 ```
 
 Second, you can pass in the name of the module you'd like to create and 
@@ -44,10 +44,10 @@ you executed the command:
 
 ```bash
 cd ~/projects
-module-init some-module
+yak-shave some-module
 ```
 
-**NB**: issuing the command `module-init .` behaves the same as the
+**NB**: issuing the command `yak-shave .` behaves the same as the
 first approach. 
 
 The module generator will produce some generic files pre-populated for
@@ -66,7 +66,7 @@ your specific module:
 ## Usage
 
 ```
-Usage: module-init [options] [name]
+Usage: yak-shave [options] [name]
 
 Options:
 

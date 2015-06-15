@@ -1,4 +1,4 @@
-Usage: module-generator [options] [name]
+Usage: yak-shave [options] [name]
 
 Options:
 

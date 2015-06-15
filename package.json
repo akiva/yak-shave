@@ -1,8 +1,8 @@
 {
-  "name": "@akiva/module-init",
+  "name": "yak-shave",
   "version": "1.0.0",
   "bin": {
-    "module-init": "bin/cli.js"
+    "yak-shave": "bin/cli.js"
   },
   "description": "Initialise new npm modules without the yak shaving",
   "license": "MIT",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/akiva/module-init.git"
+    "url": "git://github.com/akiva/yak-shave.git"
   },
   "keywords": [
     "generator",
@@ -43,8 +43,8 @@
     "boilerplate",
     "npm"
   ],
-  "homepage": "https://github.com/akiva/module-init",
+  "homepage": "https://github.com/akiva/yak-shave",
   "bugs": {
-    "url": "https://github.com/akiva/module-init/issues"
+    "url": "https://github.com/akiva/yak-shave/issues"
   }
 }
