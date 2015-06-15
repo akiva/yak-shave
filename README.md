@@ -1,10 +1,25 @@
 # yak-shave 
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![npm][npm-image]][npm-url]
+[![npm version][npm-version-image]][npm-version-url]
+[![travis][travis-image]][travis-url]
+[![stable][stability-image]][stability-url]
+[![browser support][browser-support-image]][browser-support-url]
+
+[npm-image]: https://nodei.co/npm/yak-shave.png
+[npm-url]: https://www.npmjs.com/package/yak-shave
+[npm-version-image]: https://badge.fury.io/js/yak-shave.png
+[npm-version-url]: http://badge.fury.io/js/yak-shave
+[travis-image]: https://secure.travis-ci.org/akiva/yak-shave.png
+[travis-url]: https://travis-ci.org/akiva/yak-shave
+[stability-image]: http://badges.github.io/stability-badges/dist/stable.svg
+[stability-url]: http://github.com/badges/stability-badges
+[browser-support-image]: http://ci.testling.com/akiva/yak-shave.png
+[browser-support-url]: http://ci.testling.com/akiva/yak-shave
 
 Initialise new npm modules without the yak shaving.
 
-Originally forked from the good work of [hughsk][1] and [mattdesl][2].
+Inspired by the good work of [hughsk][1] and [mattdesl][2].
 
 ## Installation
 
