@@ -7,7 +7,7 @@
 [![browser support][browser-support-image]][browser-support-url]
 
 [npm-image]: https://nodei.co/npm/{{name}}.png
-[npm-url]: https://www.npmjs.com/package/{{pkgName}}
+[npm-url]: https://www.npmjs.com/package/{{name}}
 [npm-version-image]: https://badge.fury.io/js/{{name}}.png
 [npm-version-url]: http://badge.fury.io/js/{{name}}
 [travis-image]: https://secure.travis-ci.org/{{org.github}}/{{name}}.png
