@@ -4,7 +4,6 @@
 [![npm version][npm-version-image]][npm-version-url]  
 [![travis][travis-image]][travis-url]  
 [![stable][stability-image]][stability-url]  
-[![browser support][browser-support-image]][browser-support-url]
 
 [npm-image]: https://nodei.co/npm/yak-shave.png
 [npm-url]: https://www.npmjs.com/package/yak-shave
