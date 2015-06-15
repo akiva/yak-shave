@@ -222,10 +222,11 @@ function processNpmConfig(config, done) {
   return done();
 }
 
-function configParamError(param, ex) {
-  return 'Missing configuration option, please run the following using ' +
-    'your own value:\n  > npm config set init.author.%s "%s"\n',
-    param, ex;
+function configParamError(param, sample) {
+  var message = 'Missing npm configuration option, please run the ' +
+    'following using your own value:\nnpm config set init.author.' +
+    param + ' "' + sample;
+  return message;
 }
 
 function installDependencies() {
