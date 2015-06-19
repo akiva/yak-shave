@@ -110,7 +110,7 @@ function loadNpmConfig(done) {
 }
 
 function setTargetDir(dir, done) {
-  dir = path.resolve(dir || process.cwd());
+  dir = target = path.resolve(dir || process.cwd());
   fs.stat(dir, function (err) {
     if (err) return makeTargetDir(dir, done);
     return done();
