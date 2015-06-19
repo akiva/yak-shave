@@ -36,23 +36,6 @@ avoid style arguments. `npm run lint` runs `jshint` directly, and a
 pre-commit hook ensures the linting passes before you can commit
 successfully to the Git repository.
 
-[standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
-[standard-url]: https://github.com/feross/standard
-[semistandard-image]: https://cdn.rawgit.com/flet/semistandard/master/badge.svg
-[semistandard-url]: https://github.com/Flet/semistandard
-
----
-
-# Collaborating guidelines
-
-**This is an OPEN Open Source Project.**
-
-## What?
-
-Individuals making significant and valuable contributions are given 
-commit-access to the project to contribute as they see fit. This project 
-is more like an open wiki than a standard guarded open source project.
-
 ## Rules
 
 There are a few basic ground-rules for contributors:
@@ -73,4 +56,6 @@ There are a few basic ground-rules for contributors:
 
 ## Releases
 
-Declaring formal releases remains the prerogative of the project maintainer.
+This project strictly adheres to [semver][semver]: `Major.Minor.Patch`.
+
+[semver]: http://semver.org/
