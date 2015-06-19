@@ -80,7 +80,7 @@ function postDependencyInstallation(err, deps) {
   });
   moduleData.devDependencies = JSON.stringify(deps);
   readdirp({
-    root: path.resolve('templates')
+    root: path.join(__dirname, '../templates')
   }).on('data', function (file) {
     var dest = path.resolve(target, file.path);
     fs.exists(dest, function (exists) {
