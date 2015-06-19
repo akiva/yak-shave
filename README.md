@@ -67,15 +67,18 @@ first approach.
 The module generator will produce some generic files pre-populated for
 your specific module:
 
-  - `README.md`
-  - `LICENSE`
-  - `package.json`
   - `.gitignore`
-  - `.npmignore`
   - `.jshintrc`
   - `.jshintignore`
-  - `test.js`
+  - `.npmignore`
+  - `CHANGELOG.md`
+  - `CONTRIBUTING.md`
+  - `LICENSE`
+  - `README.md`
   - `index.js`
+  - `package.json`
+  - `test.js`
+  - `travis.yml`
 
 ## Usage
 
