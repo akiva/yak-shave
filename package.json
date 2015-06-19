@@ -1,6 +1,6 @@
 {
   "name": "yak-shave",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": {
     "yak-shave": "bin/cli.js"
   },
